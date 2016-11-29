@@ -5,6 +5,17 @@ function DrawCanvas (parent) {
   parent.appendChild(this.canvas);
   this.ctx = this.canvas.getContext('2d');
   this.isX = false;
+  this.currentBord = {
+    1: '',
+    2: '',
+    3: '',
+    4: '',
+    5: '',
+    6: '',
+    7: '',
+    8: '',
+    9: ''
+  };
 
   this.drawBackground();
 };
@@ -31,7 +42,10 @@ DrawCanvas.prototype.drawRect = function (x, y) {
 DrawCanvas.prototype.mouseLocation = function (x, y) {
   if (x >= 150 && x <250) {
     if (y >= 150 && y < 250) {
-      return {x: 150, y: 150};
+      if(this.currentBord[1] == undefined){
+        this.currentBord[1] = '1';
+        return {x: 150, y: 150};
+      }
     } else if (y >= 250 && y < 350) {
       return {x: 150, y: 250};
     } else if (y >= 350 && y <= 450) {

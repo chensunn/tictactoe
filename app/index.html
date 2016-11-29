@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TIC TAC TOE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="gameStarter">
+			<p>PlayerOne: X or O?</p>
+			<button class="chooseX">X</button>
+			<button class="chooseO">O</button>
+		</div>
+		<div class="gameBoard">
+			<div class="gameMsg">
+				<p id="playerOne" class="playerOneWin">PlayerOne Wins!</p>
+				<p id="playerTwo" class="playerTwoWin">PlayerTwo Wins!</p>
+				<p class="draw">It is a draw!</p>
+			</div>
+			<table class="gameTable">
+				<tr class="gameRow">
+					<td id="0" class="gameCell"></td>
+					<td id="1" class="gameCell"></td>
+					<td id="2" class="gameCell"></td>
+				</tr>
+				<tr class="gameRow">
+					<td id="3" class="gameCell"></td>
+					<td id="4" class="gameCell"></td>
+					<td id="5" class="gameCell"></td>
+				</tr>
+				<tr class="gameRow">
+					<td id="6" class="gameCell"></td>
+					<td id="7" class="gameCell"></td>
+					<td id="8" class="gameCell"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>

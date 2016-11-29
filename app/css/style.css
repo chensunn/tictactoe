@@ -1,0 +1,77 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.container{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	margin: 80px auto;
+	padding: auto;
+	background: #51543B;
+}
+
+.gameStarter{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	z-index: 100;
+	margin-top: -80px;
+}
+
+.gameBoard{
+	width: 100%;
+	height: 400px;
+}
+
+.gameMsg{
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	z-index: 100;
+	margin-top: -160px;
+}
+
+.playerOneWin{
+	position: absolute;
+}
+
+.playerTwoWin{
+	position: absolute;
+}
+
+.draw{
+	position: absolute;
+}
+
+.gameTable{
+	position: relative;
+	width: 360px;
+	height: 360px;
+	z-index: 0;
+	top: 20px;
+	left: 20px;
+}
+
+.gameCell{
+	background: #ACB2AD;
+	position: relative;
+	width: 33.33%;
+	height: 33.33%;
+}
+
+span{
+	width: 117px;
+	height: 117px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -58.5px;
+	margin-top: -58.5px;
+	font-size: 100px;
+	z-index: 1000;
+	text-align: center;
+}

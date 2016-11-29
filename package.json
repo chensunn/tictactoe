@@ -1,0 +1,23 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "tic tac toe game based on js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chensunn/tictactoe.git"
+  },
+  "keywords": [
+    "js",
+    "game"
+  ],
+  "author": "chensunn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chensunn/tictactoe/issues"
+  },
+  "homepage": "https://github.com/chensunn/tictactoe#readme"
+}
